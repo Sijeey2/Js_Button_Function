@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body style="text-align: center; margin-top: 15%; ">
+
+    <h1 id="title" >JS Button Function</h1>
+    <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem eum obcaecati. Magni deserunt neque sint voluptatibus dignissimos adipisci excepturi animi officiis, ipsam molestias reiciendis ut, sunt odio earum laborum?</p>
+    <form>
+    <input type="button" value = "Red" onClick="document.bgColor='red'">
+    <input type="button" value = "Orange" onClick="document.bgColor='Orange'">
+    <input type="button" value = "Yellow" onClick="document.bgColor='Yellow'">
+    <input type="button" value = "Green" onClick="document.bgColor='Green'">
+    <input type="button" value = "Blue" onClick="document.bgColor='Blue'">
+    <input type="button" value = "Indigo" onClick="document.bgColor='Indigo'">
+    <input type="button" value = "Violet" onClick="document.bgColor='Violet'">
+    <button type="button" onclick ="changetext()">Change Text</button>
+    <button type="button" onclick="changetitle()">Change Title</button>
+</form>
+</body>
+<script>
+    function changetext(){
+        document.getElementById("paragraph").innerHTML = "Twinkle, twinkle, little star How I wonder what you are Up above the world so high Like a diamond in the sky Twinkle, twinkle, little star How I wonder what you are When the blazing sun is gone When he nothing shines upon Then you show your little light Twinkle, twinkle, all the night Twinkle, twinkle, little star How I wonder what you are Good night, baby";
+    }
+    function changetitle(){
+        document.getElementById("title").innerHTML = "Js onclick event";
+    }
+
+</script>
+
+
+</html>
